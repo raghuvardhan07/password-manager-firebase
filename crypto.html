@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Crypto step 1</title>
+    </head>
+    <body>
+        <h1>Step 1: salt and key</h1>
+        <input id="password" placeholder="master password" />
+        <button id="derive">Derive key</button>
+        <pre id="out"></pre>
+        <h2>Setup and unlock</h2>
+        <p>Uses the password box at the top.</p>
+        <button id="setup">Setup (create user)</button>
+        <button id="unlock">Unlock</button>
+        <pre id="user-out">no user yet</pre>
+        <h2>Encrypt / decrypt</h2>
+        <input id="message" placeholder="text to encrypt" />
+        <button id="encrypt">Encrypt</button>
+        <button id="decrypt">Decrypt</button>
+        <pre id="enc-out"></pre>
+        <script type="module" src="/src/crypto-lab.js"></script>
+    </body>
+</html>
