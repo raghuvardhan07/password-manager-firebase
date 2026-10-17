@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Vault learning</title>
+    </head>
+    <body>
+        <h1>Exercise 3: Folders</h1>
+        <p id="status">Loading...</p>
+        <button id="sign-in">Sign in with Google</button>
+        <button id="sign-out" hidden>Sign out</button>
+
+        <section id="vault" hidden>
+            <nav id="breadcrumb"></nav>
+
+            <h2>Folders</h2>
+            <input id="folder-name" placeholder="new folder name" />
+            <button id="add-folder">Add folder</button>
+            <ul id="folder-list"></ul>
+
+            <h2>Passwords in this folder</h2>
+            <input id="tag" placeholder="tag (e.g. Netflix)" />
+            <input id="note" placeholder="note (optional)" />
+            <input id="password" placeholder="password" />
+            <button id="add">Add</button>
+            <ul id="list"></ul>
+        </section>
+
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>
